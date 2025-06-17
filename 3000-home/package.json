@@ -1,0 +1,27 @@
+{
+  "name": "@module-federation/3000-home",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/cssinjs": "^1.21.0",
+    "antd": "5.19.1",
+    "lodash": "4.17.21",
+    "next": "15.3.3",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "webpack": "5.99.9"
+  },
+  "devDependencies": {
+    "@module-federation/nextjs-mf": "0.0.0-next-20250616235047",
+    "@module-federation/runtime": "0.0.0-next-20250616235047",
+    "@module-federation/enhanced": "0.0.0-next-20250616235047",
+    "@types/react": "^19.1.8",
+    "eslint": "^9.29.0"
+  },
+  "scripts": {
+    "start": "next start",
+    "dev": "NEXT_PRIVATE_LOCAL_WEBPACK=true next dev",
+    "build": "pnpm exec next telemetry disable && NEXT_PRIVATE_LOCAL_WEBPACK=true next build"
+  },
+  "packageManager": "pnpm@9.15.9+sha512.68046141893c66fad01c079231128e9afb89ef87e2691d69e4d40eee228988295fd4682181bae55b58418c3a253bde65a505ec7c5f9403ece5cc3cd37dcf2531"
+}

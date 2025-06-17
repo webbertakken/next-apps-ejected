@@ -1,0 +1,25 @@
+{
+  "name": "@module-federation/3001-shop",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/cssinjs": "^1.21.0",
+    "antd": "5.19.1",
+    "lodash": "4.17.21",
+    "next": "15.3.3",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "@module-federation/nextjs-mf": "0.0.0-next-20250616235047",
+    "@module-federation/runtime": "0.0.0-next-20250616235047",
+    "@module-federation/sdk": "0.0.0-next-20250616235047",
+    "@types/react": "^19.1.8"
+
+  },
+  "scripts": {
+    "dev": "NEXT_PRIVATE_LOCAL_WEBPACK=true next dev -p 3001",
+    "start": "next start",
+    "build": "NEXT_PRIVATE_LOCAL_WEBPACK=true next build"
+  }
+}
