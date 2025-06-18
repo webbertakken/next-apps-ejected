@@ -2,7 +2,6 @@ import type { ItemType } from 'antd/es/menu/interface';
 
 import { useRouter } from 'next/router';
 import { Menu } from 'antd';
-
 const menuItems: ItemType[] = [
   { label: 'Main home', key: '/' },
   { label: 'Test hook from remote', key: '/home/test-remote-hook' },

@@ -12,9 +12,9 @@
     "webpack": "5.99.9"
   },
   "devDependencies": {
-    "@module-federation/nextjs-mf": "0.0.0-next-20250616235047",
-    "@module-federation/runtime": "0.0.0-next-20250616235047",
-    "@module-federation/enhanced": "0.0.0-next-20250616235047",
+    "@module-federation/nextjs-mf": "0.0.0-next-20250618045528",
+    "@module-federation/runtime": "0.0.0-next-20250618045528",
+    "@module-federation/enhanced": "0.0.0-next-20250618045528",
     "@types/react": "^19.1.8",
     "eslint": "^9.29.0"
   },
